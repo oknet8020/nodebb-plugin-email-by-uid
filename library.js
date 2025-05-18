@@ -3,7 +3,7 @@
 const User = require.main.require('./src/user');
 const express = require('express');
 
-const tokenSecret = 'YOUR_SECRET_TOKEN'; // שנה לפי הצורך
+const tokenSecret = 'dsjhkj656dshbsvfs5928hbg543'; // שנה לפי הצורך
 
 module.exports = {
   init(params, callback) {
