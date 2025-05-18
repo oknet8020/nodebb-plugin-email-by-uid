@@ -1,0 +1,18 @@
+{
+  "id": "nodebb-plugin-email-by-uid",
+  "name": "Email by UID",
+  "description": "API route that returns user email by UID with token auth",
+  "version": "1.0.0",
+  "main": "library.js",
+  "url": "https://github.com/YOUR_GITHUB_USERNAME/nodebb-plugin-email-by-uid",
+  "hooks": [
+    {
+      "hook": "static:app.load",
+      "method": "init"
+    }
+  ],
+  "staticDirs": {},
+  "nbbpm": {
+    "compatibility": "^4.0.0"
+  }
+}
